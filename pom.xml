@@ -85,7 +85,7 @@
         <plugins>
 
             <!-- Verify format using Apache RAT -->
-            <plugin>
+            <!-- <plugin>
                 <groupId>org.apache.rat</groupId>
                 <artifactId>apache-rat-plugin</artifactId>
                 <version>0.13</version>
@@ -113,7 +113,7 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin> -->
 
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
