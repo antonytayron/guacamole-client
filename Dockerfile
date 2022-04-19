@@ -68,4 +68,3 @@ USER guacamole
 # Start Guacamole under Tomcat, listening on 0.0.0.0:8080
 EXPOSE 8080
 CMD ["/opt/guacamole/bin/start.sh" ]
-
