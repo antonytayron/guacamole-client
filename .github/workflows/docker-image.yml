@@ -3,13 +3,13 @@ name: Guacamole-Client CI
 on:
   push:
     branches:
-      - main
+      - master
     paths-ignore:
       - '**/README'
       - '**/.github/*'
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   docker:
